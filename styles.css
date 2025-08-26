@@ -1,0 +1,34 @@
+@media (max-width: 500px){
+    nav {
+      max-width: 100px;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+   background: whitesmoke;
+   font-family: "Lucidia Console", "Times New Roman", monospace;
+  }
+  
+  nav {
+    position: absolute;
+    background: lightgray;
+    max-width: 18%;
+    min-height: 100vw;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  header {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .main-section {
+    display: block;
+    margin-left: 20%;
+  }
